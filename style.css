@@ -66,9 +66,4 @@ span {
   h1 {
     color: #FF0D86;
   }
-  /* Styles for Desktop*/
-  @media all and (min-width: 992px) {
-    h1 {
-      color: black;
-    }
-    </stylesheet>
+  </stylesheet>
