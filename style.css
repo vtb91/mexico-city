@@ -1,3 +1,4 @@
+<stylesheet>
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
@@ -71,15 +72,5 @@ span {
 	vertical-align: middle;
 }
 
-/* Styles for Tablet */
-@media all and (min-width: 768px) {
-	h1 {
-		color: #FF0D86;
-}
 
-/* Styles for Desktop*/
-
-@media all and (min-width: 992px) {
-	h1 {
-		color: black;
-}
+</stylesheet>
