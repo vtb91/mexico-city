@@ -1,76 +1,74 @@
-<stylesheet>
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-
+<stylesheet>@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 body {
-	background-color: #FEFEFA;
-	margin:auto;
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 14px;
+  background-color: #FEFEFA;
+  margin: auto;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
 }
 
-
-#header{
-    width:100%;
-    font-family: 'Open Sans', sans-serif;
-	background-color: #AD235E ;
-	color: white;
-	padding: 40px 10px;
-	font-size: 30px;
-	text-align:center;
+#header {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #AD235E;
+  color: white;
+  padding: 40px 10px;
+  font-size: 30px;
+  text-align: center;
 }
 
-#header h1
-{
-	color:white;
-	font-size: 30px;
+#header h1 {
+  color: white;
+  font-size: 30px;
 }
 
-#header h2
-{
-	color:white;
-	font-size: 22px;
+#header h2 {
+  color: white;
+  font-size: 22px;
 }
-
 
 h1 {
-
-	font-size: 20px;
-	color:black;
+  font-size: 20px;
+  color: black;
 }
 
 /* Styles for Image */
 
 div {
-	padding: 30px
+  padding: 30px
 }
 
-
-
-
 img {
-	width: 380px;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 15px;
-    clear:both;
+  width: 380px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  clear: both;
 }
 
 p {
-    margin-left: 0px;
-    display: inline block;
+  margin-left: 0px;
+  display: inline block;
 }
-
 
 /* Styles for Text Section */
 
 p {
-	line-height: 110%;
+  line-height: 110%;
 }
 
 span {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
+/* Styles for Tablet */
 
-</stylesheet>
+@media all and (min-width: 768px) {
+  h1 {
+    color: #FF0D86;
+  }
+  /* Styles for Desktop*/
+  @media all and (min-width: 992px) {
+    h1 {
+      color: black;
+    }
+    </stylesheet>
